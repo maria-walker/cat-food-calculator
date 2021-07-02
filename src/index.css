@@ -128,4 +128,47 @@ h1 {
     border: solid black 3px;
     border-radius: 25px;
   }
+
+  button {
+    color: rgb(1, 44, 80);
+
+    background-color: rgb(231, 182, 89);
+    width: 90%;
+    margin: 20px auto;
+
+    font-size: 2em;
+    font-weight: bold;
+    padding: 8px;
+    border: solid black 3px;
+    border-radius: 25px;
+    font-family: "Comfortaa", cursive;
+  }
+
+  h1 {
+    color: rgb(1, 44, 80);
+
+    background-color: rgb(171, 178, 180);
+
+    font-weight: bold;
+    padding: 8px;
+    border: solid black 3px;
+    border-radius: 25px;
+    font-family: "Comfortaa", cursive;
+    margin: auto;
+    width: 90%;
+  }
+
+  ul {
+    width: 95%;
+    margin: auto;
+    padding: 0;
+    align-self: center;
+  }
+
+  li {
+    list-style: none;
+    width: 400px;
+    margin-left: 0px;
+    width: 100%;
+  }
 }
