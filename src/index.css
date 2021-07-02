@@ -116,14 +116,14 @@ h1 {
 @media only screen and (max-width: 800px) {
   body {
     background-color: lightblue;
-    width: 99vh;
+    width: 99vw;
   }
 
   .main {
     background-color: white;
     margin: 20px auto;
 
-    width: 95wh;
+    width: 95vw;
 
     border: solid black 3px;
     border-radius: 25px;
