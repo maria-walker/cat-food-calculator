@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: "Comfortaa", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(171, 178, 180);
+}
+
+code {
+  font-family: "Comfortaa", cursive;
+}
+.App {
+  text-align: center;
+}
+
+.cat-image {
+  width: 18%;
+  margin: 30px auto 15px;
+}
+
+ul {
+  width: 400px;
+  margin: auto;
+  padding: 0;
+  align-self: center;
+}
+
+li {
+  list-style: none;
+  width: 400px;
+  margin-left: 0px;
+}
+
+input {
+  width: 105px;
+  height: 1.6em;
+  border-radius: 7px;
+  font-family: "Comfortaa", cursive;
+  font-size: 0.9em;
+  margin: 2px;
+  padding: 6px;
+}
+
+:placeholder-shown {
+  font-style: italic;
+  font-size: 0.8em;
+  margin: 2px;
+  padding: 6px;
+}
+
+label {
+  font-size: 1.35em;
+  color: rgb(1, 44, 80);
+  display: inline-block;
+  width: 55%;
+  text-align: left;
+}
+
+button {
+  color: rgb(1, 44, 80);
+
+  background-color: rgb(231, 182, 89);
+  width: 350px;
+  margin: 20px auto;
+
+  font-size: 2em;
+  font-weight: bold;
+  padding: 8px;
+  border: solid black 3px;
+  border-radius: 25px;
+  font-family: "Comfortaa", cursive;
+}
+
+button:hover {
+  transform: translateY(3px);
+  background-color: rgb(171, 178, 180);
+}
+h1 {
+  color: rgb(1, 44, 80);
+
+  background-color: rgb(171, 178, 180);
+
+  font-weight: bold;
+  padding: 8px;
+  border: solid black 3px;
+  border-radius: 25px;
+  font-family: "Comfortaa", cursive;
+  margin: auto;
+  width: 350px;
+}
+
+.message {
+  margin: 3px auto;
+  font-size: 1.5em;
+  width: 550px;
+  text-align: center;
+}
+
+.message strong {
+  color: rgb(1, 44, 80);
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.main {
+  background-color: white;
+  margin: 20px auto;
+  width: 650px;
+  height: 830px;
+  border: solid black 3px;
+  border-radius: 25px;
+}
