@@ -93,7 +93,7 @@ h1 {
 .message {
   margin: 3px auto;
   font-size: 1.5em;
-  width: 550px;
+  width: 90%;
   text-align: center;
 }
 
@@ -108,7 +108,7 @@ h1 {
   margin: 20px auto;
 
   height: 90%;
-  width: 60%;
+  width: 70%;
   border: solid black 3px;
   border-radius: 25px;
 }
@@ -117,11 +117,12 @@ h1 {
   body {
     background-color: lightblue;
   }
+
   .main {
     background-color: white;
     margin: 20px auto;
 
-    height: 90vh;
+    width: 95%;
 
     border: solid black 3px;
     border-radius: 25px;
