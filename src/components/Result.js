@@ -60,7 +60,8 @@ const Result = ({ daysToNextOrder, hasBeenSubmitted, deliveryTime }) => {
     return (
       <div>
         <p className="message">
-          Please complete each field to see your result.
+          Please enter a <strong>number</strong> in each field to see your
+          result.
         </p>
       </div>
     );
